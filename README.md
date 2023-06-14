@@ -1,24 +1,43 @@
-# admin-projects
+# Vibe project
 
-## Project setup
-```
+# Nuxt 3 Minimal Starter
+
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+## Setup
+
+Make sure to install the dependencies:
+
+```bash
+# yarn
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# yarn
+yarn dev
 ```
 
-### Compiles and minifies for production
-```
+## Production
+
+Build the application for production:
+
+```bash
+# yarn
 yarn build
 ```
 
-### Lints and fixes files
-```
-yarn lint
+Locally preview production build:
+
+```bash
+# yarn
+yarn preview
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Node version
+
+`18.16.0`
